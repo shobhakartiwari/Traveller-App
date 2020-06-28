@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD011191239C118B008FEC9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD011190239C118B008FEC9D /* AppDelegate.swift */; };
+		AD011193239C118B008FEC9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD011192239C118B008FEC9D /* SceneDelegate.swift */; };
+		AD011195239C118B008FEC9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD011194239C118B008FEC9D /* ContentView.swift */; };
+		AD011197239C1192008FEC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD011196239C1192008FEC9D /* Assets.xcassets */; };
+		AD01119A239C1192008FEC9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD011199239C1192008FEC9D /* Preview Assets.xcassets */; };
+		AD01119D239C1192008FEC9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD01119B239C1192008FEC9D /* LaunchScreen.storyboard */; };
+		AD0111A8239C1192008FEC9D /* Traveller_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0111A7239C1192008FEC9D /* Traveller_AppTests.swift */; };
+		AD0111B3239C1192008FEC9D /* Traveller_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0111B2239C1192008FEC9D /* Traveller_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD0111A4239C1192008FEC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD011185239C118B008FEC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD01118C239C118B008FEC9D;
+			remoteInfo = "Traveller App";
+		};
+		AD0111AF239C1192008FEC9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD011185239C118B008FEC9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD01118C239C118B008FEC9D;
+			remoteInfo = "Traveller App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD01118D239C118B008FEC9D /* Traveller App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Traveller App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD011190239C118B008FEC9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD011192239C118B008FEC9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD011194239C118B008FEC9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD011196239C1192008FEC9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD011199239C1192008FEC9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD01119C239C1192008FEC9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD01119E239C1192008FEC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0111A3239C1192008FEC9D /* Traveller AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Traveller AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0111A7239C1192008FEC9D /* Traveller_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traveller_AppTests.swift; sourceTree = "<group>"; };
+		AD0111A9239C1192008FEC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0111AE239C1192008FEC9D /* Traveller AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Traveller AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0111B2239C1192008FEC9D /* Traveller_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traveller_AppUITests.swift; sourceTree = "<group>"; };
+		AD0111B4239C1192008FEC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD01118A239C118B008FEC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0111A0239C1192008FEC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0111AB239C1192008FEC9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD011184239C118B008FEC9D = {
+			isa = PBXGroup;
+			children = (
+				AD01118F239C118B008FEC9D /* Traveller App */,
+				AD0111A6239C1192008FEC9D /* Traveller AppTests */,
+				AD0111B1239C1192008FEC9D /* Traveller AppUITests */,
+				AD01118E239C118B008FEC9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD01118E239C118B008FEC9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD01118D239C118B008FEC9D /* Traveller App.app */,
+				AD0111A3239C1192008FEC9D /* Traveller AppTests.xctest */,
+				AD0111AE239C1192008FEC9D /* Traveller AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD01118F239C118B008FEC9D /* Traveller App */ = {
+			isa = PBXGroup;
+			children = (
+				AD011190239C118B008FEC9D /* AppDelegate.swift */,
+				AD011192239C118B008FEC9D /* SceneDelegate.swift */,
+				AD011194239C118B008FEC9D /* ContentView.swift */,
+				AD011196239C1192008FEC9D /* Assets.xcassets */,
+				AD01119B239C1192008FEC9D /* LaunchScreen.storyboard */,
+				AD01119E239C1192008FEC9D /* Info.plist */,
+				AD011198239C1192008FEC9D /* Preview Content */,
+			);
+			path = "Traveller App";
+			sourceTree = "<group>";
+		};
+		AD011198239C1192008FEC9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD011199239C1192008FEC9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD0111A6239C1192008FEC9D /* Traveller AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0111A7239C1192008FEC9D /* Traveller_AppTests.swift */,
+				AD0111A9239C1192008FEC9D /* Info.plist */,
+			);
+			path = "Traveller AppTests";
+			sourceTree = "<group>";
+		};
+		AD0111B1239C1192008FEC9D /* Traveller AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD0111B2239C1192008FEC9D /* Traveller_AppUITests.swift */,
+				AD0111B4239C1192008FEC9D /* Info.plist */,
+			);
+			path = "Traveller AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD01118C239C118B008FEC9D /* Traveller App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0111B7239C1192008FEC9D /* Build configuration list for PBXNativeTarget "Traveller App" */;
+			buildPhases = (
+				AD011189239C118B008FEC9D /* Sources */,
+				AD01118A239C118B008FEC9D /* Frameworks */,
+				AD01118B239C118B008FEC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Traveller App";
+			productName = "Traveller App";
+			productReference = AD01118D239C118B008FEC9D /* Traveller App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD0111A2239C1192008FEC9D /* Traveller AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0111BA239C1192008FEC9D /* Build configuration list for PBXNativeTarget "Traveller AppTests" */;
+			buildPhases = (
+				AD01119F239C1192008FEC9D /* Sources */,
+				AD0111A0239C1192008FEC9D /* Frameworks */,
+				AD0111A1239C1192008FEC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0111A5239C1192008FEC9D /* PBXTargetDependency */,
+			);
+			name = "Traveller AppTests";
+			productName = "Traveller AppTests";
+			productReference = AD0111A3239C1192008FEC9D /* Traveller AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD0111AD239C1192008FEC9D /* Traveller AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD0111BD239C1192008FEC9D /* Build configuration list for PBXNativeTarget "Traveller AppUITests" */;
+			buildPhases = (
+				AD0111AA239C1192008FEC9D /* Sources */,
+				AD0111AB239C1192008FEC9D /* Frameworks */,
+				AD0111AC239C1192008FEC9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD0111B0239C1192008FEC9D /* PBXTargetDependency */,
+			);
+			name = "Traveller AppUITests";
+			productName = "Traveller AppUITests";
+			productReference = AD0111AE239C1192008FEC9D /* Traveller AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD011185239C118B008FEC9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Balaji;
+				TargetAttributes = {
+					AD01118C239C118B008FEC9D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					AD0111A2239C1192008FEC9D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = AD01118C239C118B008FEC9D;
+					};
+					AD0111AD239C1192008FEC9D = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = AD01118C239C118B008FEC9D;
+					};
+				};
+			};
+			buildConfigurationList = AD011188239C118B008FEC9D /* Build configuration list for PBXProject "Traveller App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD011184239C118B008FEC9D;
+			productRefGroup = AD01118E239C118B008FEC9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD01118C239C118B008FEC9D /* Traveller App */,
+				AD0111A2239C1192008FEC9D /* Traveller AppTests */,
+				AD0111AD239C1192008FEC9D /* Traveller AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD01118B239C118B008FEC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD01119D239C1192008FEC9D /* LaunchScreen.storyboard in Resources */,
+				AD01119A239C1192008FEC9D /* Preview Assets.xcassets in Resources */,
+				AD011197239C1192008FEC9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0111A1239C1192008FEC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0111AC239C1192008FEC9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD011189239C118B008FEC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD011191239C118B008FEC9D /* AppDelegate.swift in Sources */,
+				AD011193239C118B008FEC9D /* SceneDelegate.swift in Sources */,
+				AD011195239C118B008FEC9D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD01119F239C1192008FEC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0111A8239C1192008FEC9D /* Traveller_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0111AA239C1192008FEC9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD0111B3239C1192008FEC9D /* Traveller_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD0111A5239C1192008FEC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD01118C239C118B008FEC9D /* Traveller App */;
+			targetProxy = AD0111A4239C1192008FEC9D /* PBXContainerItemProxy */;
+		};
+		AD0111B0239C1192008FEC9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD01118C239C118B008FEC9D /* Traveller App */;
+			targetProxy = AD0111AF239C1192008FEC9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD01119B239C1192008FEC9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD01119C239C1192008FEC9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD0111B5239C1192008FEC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD0111B6239C1192008FEC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD0111B8239C1192008FEC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Traveller App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Traveller App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Traveller-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD0111B9239C1192008FEC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Traveller App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Traveller App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Traveller-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD0111BB239C1192008FEC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Traveller AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Traveller-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Traveller App.app/Traveller App";
+			};
+			name = Debug;
+		};
+		AD0111BC239C1192008FEC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Traveller AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Traveller-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Traveller App.app/Traveller App";
+			};
+			name = Release;
+		};
+		AD0111BE239C1192008FEC9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Traveller AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Traveller-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Traveller App";
+			};
+			name = Debug;
+		};
+		AD0111BF239C1192008FEC9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Traveller AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kavsoft.Traveller-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Traveller App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD011188239C118B008FEC9D /* Build configuration list for PBXProject "Traveller App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0111B5239C1192008FEC9D /* Debug */,
+				AD0111B6239C1192008FEC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0111B7239C1192008FEC9D /* Build configuration list for PBXNativeTarget "Traveller App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0111B8239C1192008FEC9D /* Debug */,
+				AD0111B9239C1192008FEC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0111BA239C1192008FEC9D /* Build configuration list for PBXNativeTarget "Traveller AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0111BB239C1192008FEC9D /* Debug */,
+				AD0111BC239C1192008FEC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD0111BD239C1192008FEC9D /* Build configuration list for PBXNativeTarget "Traveller AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD0111BE239C1192008FEC9D /* Debug */,
+				AD0111BF239C1192008FEC9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD011185239C118B008FEC9D /* Project object */;
+}
